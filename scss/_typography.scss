@@ -1,0 +1,85 @@
+@import './variables';
+@import './mixins';
+
+li {
+    list-style: none;
+}
+
+a,
+button {
+    font-family: "Lora", serif;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 450px;
+
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.59);
+    z-index: 0;
+    height: 450px;
+}
+
+.bannertitle {
+    z-index: 1;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: $clr-brown;
+    font-family: "Lora", serif;
+
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: $clr-white;
+    font-family: "Playfair Display";
+
+    @include mq(xl) {
+        font-size: 30px;
+        line-height: normal;
+    }
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 75px;
+    font-weight: 500;
+    color: $clr-brown;
+    font-family: "Playfair Display";
+
+    @include mq(xl) {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    @include mq(sm) {
+        font-size: 23px;
+
+    }
+}
+
+h3 {
+    font-size: 25px;
+    line-height: normal;
+    font-weight: 600;
+    color: $clr-brown;
+    font-family: "Playfair Display";
+}
