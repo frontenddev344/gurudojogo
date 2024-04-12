@@ -369,6 +369,14 @@ a.btn.btn-primary.accept-cookies:hover {
 }
 .picturecard-img {
   position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.picturecard-img img {
+  transition: transform 0.3s ease-in-out;
+}
+.picturecard-img img:hover {
+  transform: scale(1.2);
 }
 .picturecard h3 {
   text-align: center;
@@ -404,6 +412,11 @@ a.btn.btn-primary.accept-cookies:hover {
   text-align: center;
   line-height: 45px;
   font-size: 24px;
+  transition: 0.3s;
+}
+
+.iconright:hover {
+  transform: translateY(-10px);
 }
 
 .picturecard .row {
