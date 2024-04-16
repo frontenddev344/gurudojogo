@@ -233,10 +233,12 @@ nav.site-nav {
 .footer-mails a,
 .footer-mails i {
   color: #fff;
+  margin: 0 4px;
 }
 
 .social-signals {
   padding: 25px 0;
+  cursor: pointer;
 }
 .social-signals i {
   color: #fff;

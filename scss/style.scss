@@ -180,6 +180,7 @@ nav.site-nav {
         a,
         i {
             color: $clr-white;
+            margin: 0 4px;
         }
 
     }
@@ -187,6 +188,7 @@ nav.site-nav {
 
 .social-signals {
     padding: 25px 0;
+    cursor: pointer;
 
     i {
         color: $clr-white;
@@ -338,18 +340,20 @@ a.btn.btn-primary.accept-cookies {
 .picturecard {
     padding: 0 0 100px 0;
 
-    
+
     &-img {
         position: relative;
         overflow: hidden;
         width: 100%;
-        img{
+
+        img {
             transition: transform 0.3s ease-in-out;
-            &:hover{
+
+            &:hover {
                 transform: scale(1.2);
             }
         }
-       
+
     }
 
     h3 {
@@ -392,11 +396,13 @@ a.btn.btn-primary.accept-cookies {
     line-height: 45px;
     font-size: 24px;
     transition: .3s;
-   
+
 }
+
 .iconright:hover {
     transform: translateY(-10px);
 }
+
 .picturecard .row {
     row-gap: 30px;
 }
