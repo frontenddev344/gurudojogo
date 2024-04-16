@@ -206,7 +206,7 @@ nav.site-nav {
 /*footer-css-start*/
 .footer {
   background-color: #5e503f;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .footer-logo img {
   max-width: 250px;
@@ -478,6 +478,13 @@ a.btn.btn-primary.accept-cookies:hover {
 .biloxibanner.banner {
   background-image: url(../images/biloxibanner.jpg);
   position: relative;
+}
+
+p.copyrighttext {
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid #fff;
+  margin-top: 18px;
 }
 
 /*biloxi-css-end*/

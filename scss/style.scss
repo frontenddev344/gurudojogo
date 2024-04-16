@@ -138,7 +138,7 @@ nav.site-nav {
 
 .footer {
     background-color: $clr-brown;
-    padding: 100px 0;
+    padding: 50px 0;
 
     &-logo {
         img {
@@ -469,7 +469,12 @@ a.btn.btn-primary.accept-cookies {
     background-image: url(../images/biloxibanner.jpg);
     position: relative;
 }
-
+p.copyrighttext {
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid #fff;
+    margin-top: 18px;
+}
 /*biloxi-css-end*/
 
 /*# sourceMappingURL=style.css.map */
