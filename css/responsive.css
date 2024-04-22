@@ -36,7 +36,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
-  color: #5e503f;
+  color: #0C0B0B;
   font-family: "Lora", serif;
 }
 
@@ -57,7 +57,7 @@ h2 {
   font-size: 32px;
   line-height: 75px;
   font-weight: 500;
-  color: #5e503f;
+  color: #00205b;
   font-family: "Playfair Display";
 }
 @media screen and (max-width: 1024px) {
@@ -76,7 +76,7 @@ h3 {
   font-size: 25px;
   line-height: normal;
   font-weight: 600;
-  color: #5e503f;
+  color: #00205b;
   font-family: "Playfair Display";
 }
 
@@ -113,7 +113,7 @@ h3 {
     right: 0;
     bottom: 0;
     width: 300px;
-    background: #5e503f;
+    background: #00205b;
     transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
     transform: translateX(-100%);
   }

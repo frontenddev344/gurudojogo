@@ -37,7 +37,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
-  color: #5e503f;
+  color: #0C0B0B;
   font-family: "Lora", serif;
 }
 
@@ -58,7 +58,7 @@ h2 {
   font-size: 32px;
   line-height: 75px;
   font-weight: 500;
-  color: #5e503f;
+  color: #00205b;
   font-family: "Playfair Display";
 }
 @media screen and (max-width: 1024px) {
@@ -77,7 +77,7 @@ h3 {
   font-size: 25px;
   line-height: normal;
   font-weight: 600;
-  color: #5e503f;
+  color: #00205b;
   font-family: "Playfair Display";
 }
 
@@ -91,7 +91,7 @@ body {
   overflow-x: hidden;
   font-size: 1.6rem;
   font-family: "Roboto Slab", serif;
-  background-color: rgba(231, 217, 202, 0.5490196078);
+  background-color: #fff;
 }
 
 ul {
@@ -126,7 +126,7 @@ html {
 /*global end*/
 /*header start*/
 header.site-header {
-  background: #5e503f;
+  background: #00205b;
   font-size: 18px;
   padding: 14px 0;
   font-weight: 700;
@@ -142,14 +142,14 @@ header.site-header {
 }
 
 header.site-header.sticky {
-  background: #5e503f;
+  background: #00205b;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding: 10px 0;
   position: fixed;
 }
 
 .site-header .site-nav ul li a.active {
-  color: rgba(231, 217, 202, 0.5490196078);
+  color: #fff;
 }
 
 .site-logo img {
@@ -164,7 +164,7 @@ header.site-header.sticky {
   color: #fff;
 }
 .site-nav a:hover {
-  color: rgba(231, 217, 202, 0.5490196078);
+  color: #fff;
 }
 
 .site-header {
@@ -205,7 +205,7 @@ nav.site-nav {
 /*header end*/
 /*footer-css-start*/
 .footer {
-  background-color: #5e503f;
+  background-color: #00205b;
   padding: 50px 0;
 }
 .footer-logo img {
@@ -225,7 +225,7 @@ nav.site-nav {
   color: #fff;
 }
 .footer-links a:hover {
-  color: #0C0B0B;
+  color: #fff;
 }
 .footer-adresse h3 {
   color: #fff;
@@ -280,18 +280,18 @@ nav.site-nav {
 }
 
 a.btn.btn-primary.accept-cookies {
-  background: #5e503f;
+  background: #00205b;
   padding: 6px 22px;
   font-size: 20px;
-  border: 1px solid #5e503f;
+  border: 1px solid #00205b;
 }
 a.btn.btn-primary.accept-cookies:hover {
   background-color: transparent;
-  color: #5e503f;
+  color: #00205b;
 }
 
 .card-body h3 {
-  color: #5e503f;
+  color: #00205b;
 }
 
 /*cookie end*/
@@ -312,12 +312,12 @@ a.btn.btn-primary.accept-cookies:hover {
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
-  color: #5e503f;
+  color: #00205b;
   font-family: "Lora";
 }
 
 .content-wrap h4 {
-  color: #5e503f;
+  color: #00205b;
   font-size: 25px;
   margin-bottom: 0;
   font-weight: 600;
@@ -345,7 +345,7 @@ a.btn.btn-primary.accept-cookies:hover {
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
-  color: #5e503f;
+  color: #00205b;
   font-family: "Lora";
 }
 
