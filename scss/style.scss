@@ -72,23 +72,40 @@ header.site-header.sticky {
     position: fixed;
 }
 
-.site-header .site-nav ul li a.active {
-    color: $clr-skin;
+.site-header .site-nav ul li a.active::before  {
+    width: 100%;
 }
 
 .site-logo img {
     width: 100%;
     max-width: 300px;
 }
-
-.site-nav a {
+.site-nav a::before{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background-color: #fff;
+    transition:all 0.3s linear ;
+    -webkit-transition:all 0.3s linear ;
+    -moz-transition:all 0.3s linear ;
+    -ms-transition:all 0.3s linear ;
+    -o-transition:all 0.3s linear ;
+}
+.site-nav li{
     padding: 8px 26px !important;
+
+}
+.site-nav a {
     display: inline-block;
     font-weight: 500;
     color: $clr-white ;
+    position: relative;
 
-    &:hover {
-        color: $clr-skin;
+    &:hover::before {
+        width: 100%;
     }
 }
 
@@ -324,7 +341,7 @@ a.btn.btn-primary.accept-cookies {
 
 /*homebanner-css-start*/
 .homebanner.banner {
-    background-image: url(../images/homebanner.jpg);
+    background-image: url(../images/homebanner1.jpg);
     height: 550px;
     position: relative;
 
@@ -399,9 +416,9 @@ a.btn.btn-primary.accept-cookies {
 
 }
 
-.iconright:hover {
-    transform: translateY(-10px);
-}
+// .iconright:hover {
+//     transform: translateY(-10px);
+// }
 
 .picturecard .row {
     row-gap: 30px;

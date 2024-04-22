@@ -22,9 +22,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .site-nav li{
+        padding: 8px 9px;
+
+    }
     .site-nav a {
         display: inline-block;
-        padding: 8px 9px;
     }
 
     .site-nav li {
@@ -112,11 +115,13 @@
         flex-wrap: wrap;
         padding: 20px;
     }
-
+    .site-nav li{
+        padding: 0.8rem 2rem;
+        
+    }
     .site-nav li a {
         font-size: 17px;
         display: inline-block;
-        padding: 0.8rem 2rem;
         text-transform: capitalize;
         color: $clr-white;
         position: relative;
